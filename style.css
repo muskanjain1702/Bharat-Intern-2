@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish" sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #83b8ea;
+}
+form{
+    /* background: transparent; */
+    background-color:#eeff00;
+    padding: 80px;
+    width: 50%;
+    border-radius: 8px;
+    margin: 100px auto;
+    text-align: center;
+}
+#tempCalc label {
+    font-size: 30px;
+    
+}
+
+#temp{
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width :100px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin-top: 20px;
+    
+}
+#temp_diff {
+    
+    height: 40px;
+    width: 100px;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    vertical-align: top;
+    border-radius: 4px;
+    
+}
+[type ="submit"]  { 
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 20px;
+    border: none;
+    background-color:#74758a;
+    color: rgb(207, 180, 93);
+    border: 2px solid gray;
+    border-radius: 4px;
+    
+}
+#resultContainer{
+    font-size:30px;
+}
